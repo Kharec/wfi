@@ -40,7 +40,9 @@ In a terminal window, I'm running :
 
 Then in another window, I'm running:
 
-`docker run -d --name mariatest -p 3306:3306 --env MARIADB_ROOT_PASSWORD=my-secret-pw  mariadb:latest`
+```
+docker run -d --name mariatest -p 3306:3306 --env MARIADB_ROOT_PASSWORD=my-secret-pw  mariadb:latest
+```
 
 And in the first window :
 
