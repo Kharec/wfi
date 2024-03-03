@@ -12,7 +12,7 @@ func TestTCPPort(t *testing.T) {
 
 func TestLocalhostTCP(t *testing.T) {
 	if !TryPort("tcp", "localhost", "3306") {
-		t.Fatal()
+		t.Fatal("Maybe run `make test-dependency`")
 	}
 }
 
