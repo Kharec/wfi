@@ -8,7 +8,10 @@ I wrote this little piece of software that loops until a connection is succeeded
 
 ## Build
 
-`go build -o bin/wfi cmd/wfi.go`
+```
+➜  go mod tidy
+➜  go build -o bin/wfi cmd/wfi.go`
+```
 
 ## Usage
 
