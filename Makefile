@@ -19,6 +19,9 @@ test-dependency:
 test:
 	@go test ./...
 
+fmt:
+	@go fmt ./...
+
 install:
 	@cp $(GOBIN)/$(APP_NAME) ~/bin/
 	
