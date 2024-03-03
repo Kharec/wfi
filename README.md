@@ -9,8 +9,8 @@ I wrote this little piece of software that loops until a connection is succeeded
 ## Build
 
 ```
-➜  go mod tidy
-➜  go build -o bin/wfi cmd/wfi.go`
+➜  make
+➜  make install # push the binary to ~/bin folder
 ```
 
 ## Usage
