@@ -8,6 +8,7 @@ GOBIN := $(GOBASE)/bin
 all: build
 
 build:
+	@go mod tidy
 	@GOBIN=$(GOBIN) go build -o $(GOBIN)/$(APP_NAME) $(GOBASE)/cmd
 
 install:
