@@ -13,7 +13,7 @@ func TestTryPort(t *testing.T) {
 		want  bool
 	}{
 		{"ValidTCPPort", "tcp", "google.com", "443", true},
-		{"LocalTCPPort", "tcp", "localhost", "3306", true},
+		{"ValidLocalTCPPort", "tcp", "localhost", "3306", true},
 		{"ValidUDPPort", "udp", "1.1.1.1", "53", true},
 		{"InvalidHostname", "tcp", "souzej.pk", "239", false},
 		{"InvalidTCPPort", "tcp", "facebook.com", "92821", false},
